@@ -1,5 +1,7 @@
-* { margin: 0; padding: 0; }
+* { margin: 0px; padding: 0; }
 
-h1 { color: aquamarine; }
+h1 { background-color: green; height: 150px; color: aquamarine; width: 150px; display: inline-block; }
 
-p { font-size: 32px; }
+div { height: 150px; width: 150px; display: inline-block; }
+
+p { height: 150px; font-size: 32px; display: inline-block; }
