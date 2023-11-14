@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="./img/imagem1.jpg" type="image/x-icon">
+
     <title>Tech Blog - Seu blog tech !</title>
 
     <link rel="stylesheet" href="./techblog.css ">
@@ -11,7 +13,7 @@
 <body>
     <!-- classes e ids de nomes compostos separa por traços -->
     <header id="header-area">
-        <h1 class="padding-header">techblog</h1>
+        <h1 class="padding-header">tech<span class="white-font">Blog</span></h1>
         <nav class="padding-header">
             <a href="">home</a>
             <a href="">jogos</a>
@@ -24,25 +26,25 @@
         <section id="posts-area">
             <div class="post">
                 <h2>Café com programação</h2>
-                <span>postado em 18 de março de 2023</span>
+                <span class="post-date">postado em 18 de março de 2023</span>
                 <img src="./img/imagem1.jpg" alt="Computador junto à uma xícara de café">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi dolorem aspernatur nostrum dicta quae, libero vel pariatur a magni molestiae obcaecati dolorum! Accusamus, adipisci labore? Provident sunt, blanditiis explicabo, asperiores doloremque eos quidem eum sint beatae, id minima molestiae laboriosam itaque.</p>
             </div>
             <div class="post">
                 <h2>Programação Cross-Plataforma</h2>
-                <span>postado em 04 de maio de 2023</span>
+                <span class="post-date">postado em 04 de maio de 2023</span>
                 <img src="./img/imagem2.jpg" alt="Programação Cross-Plataforma">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi dolorem aspernatur nostrum dicta quae, libero vel pariatur a magni molestiae obcaecati dolorum! Accusamus, adipisci labore? Provident sunt,..</p>
             </div>
             <div class="post">
                 <h2>inovaçoes na realidade aumentada</h2>
-                <span>postado em 27 de julho de 2023</span>
+                <span class="post-date">postado em 27 de julho de 2023</span>
                 <img src="./img/imagem3.jpg" alt="inovaçoes na realidade aumentada">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi dolorem aspernatur nostrum dicta quae, libero vel pariatur a magni molestiae obcaecati dolorum! Accusamus, adipisci labore? Provident sunt, blanditiis .</p>
             </div>
             <div class="post">
                 <h2>Café com programação</h2>
-                <span>postado em 18 de março de 2023</span>
+                <span class="post-date">postado em 18 de março de 2023</span>
                 <img src="./img/imagem4.jpg" alt="Computador junto à uma xícara de café">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi dolorem aspernatur nostrum dicta quae, libero vel pariatur a magni molestiae obcaecati dolorum! Accusamus, adipisci labore? Provident sunt, blanditiis explicabo, asperiores doloremque eos quidem eum sint beatae, id minima molestiae laboriosam itaque.</p>
             </div>
@@ -63,10 +65,17 @@
                     <a href="">leia mais</a>
                 </div>
             </div>
+            <div class="side-content">
+                <h3>categorias</h3>
+                <a href="">jogos</a><br>
+                <a href="">celulares</a><br>
+                <a href="">inforomática</a><br>
+                <a href="">eletrônicos</a><br>
+            </div>
         </section>
     </main>
     <footer id="footer-area">
-        <span>&copy; Todos os direitos reservados</span>
+        <span id="text-format">&copy; Todos os direitos reservados</span>
     </footer>
 </body>
 </html>
