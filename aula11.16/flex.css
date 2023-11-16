@@ -1,1 +1,9 @@
 * { margin: 0px;  padding: 0px; }
+
+.container-body { display: flex; align-items: center; flex-direction: column; font-family: sans-serif; }
+
+.container-header { background: url('./img/img.jpg') no-repeat; background-size: cover; height: 100vh; width: 80%; color: #fff; }
+
+.container-nav { padding: 0 15px; display: flex; justify-content: space-between; align-items: center; background-color: #212529; height: 100px; }
+
+.container-ul { display: flex; }
