@@ -1,5 +1,12 @@
 * { margin: 0px; padding: 0px; font-size: 26px; }
 
 div { border: 2px solid black; }
+.header-bgc { background-color: #23b14d; }
+.menu1-bgc { background-color: #9bd3ed; }
+.menu2-bgc { background-color: #3f47cc; }
+.content-bgc { background-color: #a349a3; }
+.footer-bgc { background-color: #ff7f26; }
 
-main { display: grid; grid-template-columns: repeat(4, 1fr) minmax(100px, 100px) repeat(2, 2fr) min-content max-content; }
+main {  width: 70%; margin: 0 auto;display: grid; grid-template-columns: 1fr 1.5fr; grid-template-rows: 80px 50px 380px 50px; grid-row-gap: 8px; grid-column-gap: 8px; }
+
+.grid-align { grid-column-start: 1; grid-column-end: 3; }
