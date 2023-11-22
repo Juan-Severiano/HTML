@@ -1,0 +1,14 @@
+* { margin: 0px; padding: 0px; }
+
+header { background-color: green; grid-area: header; }
+nav { background-color: blue; grid-area: nav; }
+article { background-color: yellow; grid-area: article; }
+div { background-color: orange; grid-area: div; }
+footer { background-color: gray; grid-area: footer; }
+
+body { display: grid; width: 100vw; height: 100vh; background-color: #d9d9d9; grid-template-areas: 
+    "header header header"
+    "nav article div"
+    "nav article div"
+    "nav article div"
+    "footer footer footer"; grid-template-columns: 20% 60% 20%; grid-template-rows: 10% 5% 70% 5% 10%; }
