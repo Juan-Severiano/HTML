@@ -2,7 +2,8 @@
 
 .container { display: grid; grid-template-rows: 100px 100vh 150px repeat(3, 450px) 100vh 100px; }
 
-nav { background-color: aqua; }
+nav { background-color: aqua; display: grid; grid-template-columns: repeat(2, 1fr); justify-content: space-between; align-items: center; }
+ul { display: grid; grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr; list-style: none; }
 header { background-color: yellow; }
 section { background-color: violet; }
 main { background-color: aquamarine; border: 2px solid black; }
