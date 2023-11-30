@@ -1,0 +1,28 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+body { width: 100vw; }
+
+h1 { width: 100px; margin: 0 auto; }
+
+.flex-container { display: flex; flex-wrap: wrap; }
+.flex-container header { width: 100vw; height: 15vh; background-color: antiquewhite; }
+.flex-container nav { background-color: aqua; width: 100vw; height: 15vh; }
+.flex-container > div { width: 100vw; display: flex; }
+.flex-container section { background-color: blanchedalmond; width: 50vw; height: 25vh; }
+.flex-container article { background-color: blueviolet; width: 50vw; height: 25vh; }
+.flex-container aside { background-color: burlywood; width: 50vw; height: 50vh; }
+.flex-container footer { background-color: coral; width: 100vw; height: 20vh; }
+
+
+.grid-container { display: grid; grid-template-columns: repeat(2, 50vw); grid-template-rows: 15vh 15vh 25vh 25vh 20vh; grid-template-areas: 
+    'one one'
+    'two two'
+    'four five'
+    'three five'
+    'footer footer'; }
+.grid-container header { grid-area: one; background-color: antiquewhite; }
+.grid-container nav { grid-area: two; background-color: aqua; }
+.grid-container section { grid-area: three; background-color: blanchedalmond; }
+.grid-container article { grid-area: four; background-color: blueviolet; }
+.grid-container aside { grid-area: five; background-color: burlywood; }
+.grid-container footer { grid-area: footer; background-color: coral;}
