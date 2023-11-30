@@ -1,12 +1,53 @@
 * { margin: 0px; padding: 0px; box-sizing: border-box; }
 
-/* body { width: 100%; overflow-wrap: break-word; word-wrap: break-word; }
+body { width: 100%; overflow-wrap: break-word; word-wrap: break-word; }
 
 .wrapper { width: 100vw; margin: 0 auto; }
 
-.main-container { width: 100%; display: block; background-color: #fff; } */
+.main-container { width: 100%; display: block; background-color: #fff; }
 
-body { word-wrap: break-word; overflow-wrap: break-word; }
+.container { width: 100%; max-width: 800px; margin: 0 auto; }
+
+section.module.parallax { overflow: hidden; height: 100vh!important;  display: flex; flex-direction: column; justify-content: center; align-items: center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+
+section.module.parallax-1 { background-image: url(./images/avengers01.jpg); }
+section.module.parallax-2 { background-image: url(./images/avengers02.jpg); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body { word-wrap: break-word; overflow-wrap: break-word; }
 
 .wrapper { width: 100vw; margin: 0 auto; }
 
@@ -20,4 +61,4 @@ section.module.parallax-1 { background-image: url(./images/avengers01.jpg); }
 section.module.parallax-2 { background-image: url(./images/avengers02.jpg); }
 section.module.parallax-03 { background-image: url(./img/avengers03.jpg); }
 section.module.parallax-04 { background-image: url(./img/avengers04.jpg); }
-section.module.parallax-05 { background-image: url(./img/avengers05.jpg); }
+section.module.parallax-05 { background-image: url(./img/avengers05.jpg); } */
