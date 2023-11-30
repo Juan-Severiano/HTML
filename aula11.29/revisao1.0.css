@@ -14,8 +14,27 @@ h1 { margin: 20px; background-color: aquamarine; }
 
 .grid-container { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 80px 300px 200px; grid-gap: 5px; }
 
-#one { grid-column-start: 1; grid-column-end: 4; background-color: aqua; }
+#one { grid-column-start: 1; grid-column-end: 4; background-color: aqua; display: grid; grid-template-columns: 100px 1fr 100px; align-items: center; }
+#menu-h2 { grid-column-start: 3; }
 #two { background-color: chartreuse; }
 #three { background-color: coral; }
 #four { background-color: darksalmon; }
 #five { grid-column-start: 1; grid-column-end: 4; background-color: yellow; }
+
+
+/* Grid container with template areas */
+
+.grid-container-area { display: grid; width: 100vw; grid-template-rows: 80px 300px 200px; grid-gap: 15px;
+    grid-template-areas: 
+    'one one one'
+    'two three four'
+    'five five five'; }
+.one { grid-area: one; background-color: darkkhaki; display: grid; grid-template-areas: 'logo n menu01'; grid-template-rows: 100px 1fr 100px; }
+.menu-h2-01 { grid-area: logo; }
+.menu-h2-02 { grid-area: menu01; }
+
+
+.two { grid-area: two; background-color: chartreuse; }
+.three { grid-area: three; background-color: coral; }
+.four { grid-area: four; background-color: yellow; }
+.five { grid-area: five; background-color: aqua; }
