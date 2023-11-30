@@ -1,0 +1,14 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+body { overflow-wrap: break-word; word-wrap: break-word; width: 100vw; }
+
+.wrapper { width: 100vw; margin: 0 auto; }
+
+.container-main { display: block; width: 100%; }
+
+.container { width: 100%; max-width: 800px; margin: 0 auto; }
+
+section.module.parallax { height: 100vh !important; display: flex; flex-direction: column; align-items: center; justify-content: center; background-attachment: fixed; background-size: cover; background-position: relative; }
+
+section.module.parallax-1 { background-image: url(./images/avengers01.jpg); }
+section.module.parallax-2 { background-image: url(./images/avengers02.jpg); }
