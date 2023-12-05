@@ -4,11 +4,12 @@
 
 li a { color: #fff; }
 
+
 a { text-decoration: none!important;  }
 
 ul { list-style: none; }
 
-.container { display: grid; grid-template-rows: 120vh 250px repeat(3, 450px) 100vh 100px; font-family: 'Poppins', sans-serif; }
+.container { display: grid; grid-template-rows: 120vh 200px repeat(3, 450px) 100vh 100px; font-family: sans-serif; }
 
 .div-bg { background: url(./img/banner-bg.jpg) no-repeat; background-size: cover; display: grid; grid-template-rows: 150px  1fr; border-radius: 0px 0px 140px 140px; }
 
