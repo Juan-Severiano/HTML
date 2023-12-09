@@ -1,0 +1,26 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: sans-serif; }
+
+body { width: 100vw; height: 100vh; }
+
+.container { display: flex; width: 800px; height: 800px; margin: 0 auto; flex-wrap: wrap; }
+
+.image { width: 200px; height: 200px; background-size: cover; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 900; }
+
+h3 { text-shadow: 0 -0 1em #242424, 0 0 0.2em #242424, 0 -0 1em #242424; }
+
+#i1 { background-image: url(./imagens/questao01.01.jpg); }
+#i2 { background-image: url(./imagens/questao01.02.jpg); }
+#i3 { background-image: url(./imagens/questao01.03.jpg); }
+#i4 { background-image: url(./imagens/questao01.04.jpg); }
+#i5 { background-image: url(./imagens/questao01.05.jpg); }
+#i6 { background-image: url(./imagens/questao01.06.jpg); }
+#i7 { background-image: url(./imagens/questao01.07.jpg); }
+#i8 { background-image: url(./imagens/questao01.08.jpg); }
+#i9 { background-image: url(./imagens/questao01.09.jpg); }
+#i10 { background-image: url(./imagens/questao01.10.jpg); }
+#i11 { background-image: url(./imagens/questao01.11.jpg); }
+#i12 { background-image: url(./imagens/questao01.12.jpg); }
+#i13 { background-image: url(./imagens/questao01.13.jpg); }
+#i14 { background-image: url(./imagens/questao01.14.jpg); }
+#i15 { background-image: url(./imagens/questao01.15.jpg); }
+#i16 { background-image: url(./imagens/questao01.16.jpg); }
